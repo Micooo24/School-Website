@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/logo.png" />
+    <!-- Google Fonts: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>PNHS Main</title>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="50">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="Logo" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="#home">Home</a>
+                    <a class="nav-link" href="#carousel">Gallery</a>
+                    <a class="nav-link" href="#programs">Programs</a>
+                    <a class="nav-link" href="#activities">More</a>
+                    <a class="nav-link" href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="container mt-5 pt-5">
+        <div class="row align-items-center">
+            <div class="col-md-6 text-center text-md-start">
+                <h1>Parañaque National High School Main</h1>
+                <p class="lead">
+                    Parañaque National High School (PNHS) is a comprehensive national high school, formerly known as Parañaque Municipal High School (PMHS). The main campus is located at Kay Talise Street and Dr. A. Santos Avenue, San Dionisio, Parañaque, with annexes in Baclaran and San Isidro.
+                </p>
+            </div>
+            <div class="col-md-6 text-center">
+                <div class="image-container">
+                    <img src="images/pnhs.jpg" alt="PNHS Main" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Carousel Section -->
+    <section id="carousel" class="container mt-5">
+        <div id="schoolCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">    
+                <div class="carousel-item active">
+                    <img src="images/school1.jpg" class="d-block w-100" alt="School Image 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/school2.jpg" class="d-block w-100" alt="School Image 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/school3.jpg" class="d-block w-100" alt="School Image 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#schoolCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#schoolCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- Programs Offered Section -->
+    <section id="programs" class="container mt-5">
+        <h2 class="text-center mb-4">Program Offers</h2>
+        <div class="row">
+            <!-- Senior High School Programs -->
+            <div class="col-md-6">
+                <h3>Senior High School (Grade 11-12)</h3>
+                <div id="stemCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/stem.jpg" class="d-block w-100" alt="STEM Image 1">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>STEM</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/abm.jpg" class="d-block w-100" alt="ABM Image 1">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>ABM</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/humss.jpg" class="d-block w-100" alt="HUMSS Image 1">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>HUMSS</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/gas.jpg" class="d-block w-100" alt="GAS Image 1">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>GAS</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/tvl.jpg" class="d-block w-100" alt="TVL Image 1">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>TVL</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#stemCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#stemCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <ul class="list-group list-group-flush mt-3">
+                    <li class="list-group-item">Science, Technology, Engineering, and Mathematics (STEM)</li>
+                    <li class="list-group-item">Accountancy, Business, and Management (ABM)</li>
+                    <li class="list-group-item">Humanities and Social Sciences (HUMSS)</li>
+                    <li class="list-group-item">General Academic Strand (GAS)</li>
+                    <li class="list-group-item">Technical-Vocational-Livelihood (TVL)</li>
+                </ul>
+            </div>
+            <!-- Junior High School Programs -->
+            <div class="col-md-6">
+                <h3>Junior High School (Grade 7-10)</h3>
+                <div id="juniorCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/jhs1.jpg" class="d-block w-100" alt="Junior High Image 1">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Junior High</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/jhs2.jpg" class="d-block w-100" alt="Junior High Image 2">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Junior High</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/jhs3.jpg" class="d-block w-100" alt="Junior High Image 3">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Junior High</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/jhs4.jpg" class="d-block w-100" alt="Junior High Image 4">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Junior High</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#juniorCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#juniorCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <ul class="list-group list-group-flush mt-3">
+                    <li class="list-group-item">Grade 7</li>
+                    <li class="list-group-item">Grade 8</li>
+                    <li class="list-group-item">Grade 9</li>
+                    <li class="list-group-item">Grade 10</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- Engaging or Fun Activities Section -->
+    <section id="activities" class="container mt-5">
+        <h2 class="text-center mb-4">More About PNHS</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/act1.jpg" class="card-img-top" alt="Activity 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Cultivating a Culture of Peace</h5>
+                        <p class="card-text">Parañaque National High School - Main Araling Panlipunan Department is celebrating School-Based United Nations Month 2024 this October!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/act2.jpg" class="card-img-top" alt="Activity 2">
+                    <div class="card-body">
+                        <h5 class="card-title">National Learning Camp</h5>
+                        <p class="card-text">Makisaya at Matuto. Learning Camp na tayo !</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/act3.jpg" class="card-img-top" alt="Activity 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Brigada Eskwela</h5>
+                        <p class="card-text">Tara na! Maki-Brigada Eskwela na!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    
+<!-- Junior High School Building Section -->
+<section id="junior-building" class="container mt-5">
+    <h2 class="text-center mb-4">Junior High School Building</h2>
+    <div id="juniorBuildingCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/briones.jpg" class="d-block w-100" alt="Junior High School Building Image 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Briones Building</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/gonzales.jpg" class="d-block w-100" alt="Junior High School Building Image 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Gonzales Building</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/marquez.jpg" class="d-block w-100" alt="Junior High School Building Image 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Marquez Building</h5>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#juniorBuildingCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#juniorBuildingCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</section>
+
+<hr>
+
+<!-- Senior High School Building Section -->
+<section id="senior-building" class="container mt-5">
+    <h2 class="text-center mb-4">Senior High School Building</h2>
+    <div id="seniorBuildingCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/bacani_shs1.jpg" class="d-block w-100" alt="Senior High School Building Image 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Bacani Building</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/golez_shs2.jpg" class="d-block w-100" alt="Senior High School Building Image 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Golez Building</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/hidalgo_shs3.jpg" class="d-block w-100" alt="Senior High School Building Image 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Hidalgo Building</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/lapus_shs4.jpg" class="d-block w-100" alt="Senior High School Building Image 4">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Lapus Building</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/luistro_shs5.jpg" class="d-block w-100" alt="Senior High School Building Image 5">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Luistro Building</h5>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#seniorBuildingCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#seniorBuildingCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</section>
+
+ <!-- Contact Section -->
+<section id="contact" class="container mt-5">
+    <h2 class="text-center mb-4">Contact Us</h2>
+    <p class="text-center">For inquiries, please contact us at <a href="mailto:info@pnhs.edu.ph">pnhsmain@pnhs.edu.ph</a>.</p>
+    <p class="text-center">Location: Kay Talise St., San Dionisio, Parañaque, Philippines</p>
+    <div class="text-center">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3858.123456789012!2d121.0123456789!3d14.5123456789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9abcdef1234%3A0x1234567890abcdef!2sKay%20Talise%20St.%2C%20San%20Dionisio%2C%20Parañaque%2C%20Philippines!5e0!3m2!1sen!2sph!4v1234567890123" 
+            width="600" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+</section>
+
+
+
+<hr>
+
+    <!-- Footer -->
+    <footer class="py-4 text-center mt-5">
+        <div class="container">
+            <p>&copy; 2024 PNHS Main. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

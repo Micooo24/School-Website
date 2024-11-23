@@ -1,0 +1,46 @@
+body {
+    font-family: 'Poppins', sans-serif; /* Apply Poppins font */
+    color: #333; /* Set the default text color to a dark shade for better readability */
+    background-color: white; /* Set the background color to white */
+}
+
+.navbar {
+    background-color: #28a745; /* Green background for the navbar */
+}
+
+.nav-link, .navbar-brand {
+    color: white !important; /* Set navbar text color to white */
+}
+
+.nav-link:hover, .navbar-brand:hover {
+    color: #d4edda !important; /* Light green color on hover */
+}
+
+h1, h2, h3 {
+    color: #28a745; /* Green color for headings */
+}
+
+.list-group-item {
+    color: #333; /* Dark text color for list items */
+    background-color: #f8f9fa; /* Light background color for list items */
+}
+
+.list-group-item:hover {
+    background-color: #d4edda; /* Light green background on hover */
+}
+
+.image-container img {
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #28a745; /* Green border for images */
+}
+
+footer {
+    background-color: #28a745; /* Green background for the footer */
+    color: white; /* White text color for the footer */
+}
+
+footer p {
+    margin: 0;
+}
